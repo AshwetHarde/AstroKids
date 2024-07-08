@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Popup Demo</title>
+
+  <!-- CSS Styles -->
+  <link rel="vdstylesheet" href="path/to/your/fancybox.css">
+
+  <!-- JS Libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="path/to/your/jquery.fancybox.min.js"></script>
+  <script src="path/to/your/svg-injector.min.js"></script>
+
+  <!-- JS Components -->
+  <script src="path/to/your/hs.fancybox.js"></script>
+  <script src="path/to/your/hs.svg-injector.js"></script>
+</head>
+<body>
+
+  <!-- Video Section -->
+  <div class="video-section container">
+    <div class="row">
+      <!-- Video 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="video-item">
+          <div class="video-thumbnail">
+            <a class="js-fancybox u-media-player u-media-player--centered" href="javascript:;"
+               data-src="//vimeo.com/167434033"
+               data-speed="700"
+               data-animate-in="zoomIn"
+               data-animate-out="zoomOut"
+               data-caption="Video 1">
+              <span class="u-media-player__icon u-media-player__icon--lg">
+                <span class="fas fa-play u-media-player__icon-inner mr-1"></span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="video-item">
+          <div class="video-thumbnail">
+            <a class="js-fancybox u-media-player u-media-player--centered" href="javascript:;"
+               data-src="//vimeo.com/167434033"
+               data-speed="700"
+               data-animate-in="zoomIn"
+               data-animate-out="zoomOut"
+               data-caption="Video 2">
+              <span class="u-media-player__icon u-media-player__icon--lg">
+                <span class="fas fa-play u-media-player__icon-inner mr-1"></span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="video-item">
+          <div class="video-thumbnail">
+            <a class="js-fancybox u-media-player u-media-player--centered" href="javascript:;"
+               data-src="//vimeo.com/167434033"
+               data-speed="700"
+               data-animate-in="zoomIn"
+               data-animate-out="zoomOut"
+               data-caption="Video 3">
+              <span class="u-media-player__icon u-media-player__icon--lg">
+                <span class="fas fa-play u-media-player__icon-inner mr-1"></span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Video Section -->
+
+  <!-- JS Plugins Init. -->
+  <script src="path/to/your/your-vd.js"></script>
+
+</body>
+</html>
